@@ -166,3 +166,5 @@ def apply_theme(theme_name, themes, root_folder):
             patch_topsky_maps(full_path, color_lines)
         elif 'TopSkySettings' in relative_path:
             patch_topsky_settings(full_path, color_lines)
+        else:
+            raise ValueError(f'File type is not supported for patching:\n{full_path}')

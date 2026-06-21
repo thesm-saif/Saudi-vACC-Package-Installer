@@ -5,3 +5,5 @@ Release/
 __pycache__/
 *.pyc
 *.pyo
+Package-Installer-v1.1.0/
+Package-Installer-v1.1.0.zip

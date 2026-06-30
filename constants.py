@@ -49,17 +49,17 @@ THEME_DESCRIPTIONS = {
 }
 
 RATING_MAP = {
-    "Observer":             (1,  "OBS"),
-    "Ground/Delivery":      (2,  "S1"),
-    "Tower Controller":     (3,  "S2"),
-    "TMA Controller":       (4,  "S3"),
-    "Enroute Controller":   (5,  "C1"),
-    "Senior Controller":    (7,  "C3"),
-    "Instructor 1":         (8,  "I1"),
-    "Instructor 2":         (9,  "I2"),
-    "Instructor 3":         (10, "I3"),
-    "Supervisor":           (11, "SUP"),
-    "Administrator":        (12, "ADM"),
+    "Observer":             (0,  "OBS"),
+    "Ground/Delivery":      (1,  "S1"),
+    "Tower Controller":     (2,  "S2"),
+    "TMA Controller":       (3,  "S3"),
+    "Enroute Controller":   (4,  "C1"),
+    "Senior Controller":    (6,  "C3"),
+    "Instructor 1":         (7,  "I1"),
+    "Instructor 2":         (8,  "I2"),
+    "Instructor 3":         (9,  "I3"),
+    "Supervisor":           (10, "SUP"),
+    "Administrator":        (11, "ADM"),
 }
 RATINGS = list(RATING_MAP.keys())
 RATING_VALUE_TO_LABEL = {v[0]: k for k, v in RATING_MAP.items()}

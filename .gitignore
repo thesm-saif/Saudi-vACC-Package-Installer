@@ -1,9 +1,6 @@
-build/
-dist/
-Release/
-*.spec
 __pycache__/
 *.pyc
-*.pyo
-Package-Installer-v*/
-Package-Installer-v*.zip
+build/
+dist/
+*.spec
+config.json
